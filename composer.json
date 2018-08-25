@@ -1,6 +1,6 @@
 {
     "name": "nightkit/nova-element-ui",
-    "version": "0.6.1",
+    "version": "0.7.0",
     "description": "Element UI components for Laravel Nova",
     "type": "library",
     "license": "MIT",

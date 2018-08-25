@@ -14,6 +14,7 @@ This is awailable component for this time.
 
 ```php
 use NightKit\NovaElements\Fields\ElementInput\ElementInput;
+use NightKit\NovaElements\Fields\ElementPassword\ElementPassword;
 use NightKit\NovaElements\Fields\ElementSelect\ElementSelect;
 use NightKit\NovaElements\Fields\ElementCheckbox\ElementCheckbox;
 use NightKit\NovaElements\Fields\ElementRadio\ElementRadio;
