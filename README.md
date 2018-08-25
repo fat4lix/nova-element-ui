@@ -6,11 +6,23 @@ This is a set of component Element UI for Laravel Nova
 
 1) ```composer require nightkit/nova-element-ui```
 2) Add NightKit\NovaElements\NovaElementsServiceProvider::class to your config/app.php in providers section
-3) ``` php artisan vendor:publish ```
+3) ``` php artisan vendor:publish --provider="NightKit\NovaElements\NovaElementsServiceProvider" --tag="public" ```
 
 ### Components
 
 This is awailable component for this time.
+
+```php
+use NightKit\NovaElements\Fields\ElementInput\ElementInput;
+use NightKit\NovaElements\Fields\ElementSelect\ElementSelect;
+use NightKit\NovaElements\Fields\ElementCheckbox\ElementCheckbox;
+use NightKit\NovaElements\Fields\ElementRadio\ElementRadio;
+use NightKit\NovaElements\Fields\ElementSwitch\ElementSwitch;
+use NightKit\NovaElements\Fields\ElementAutocomplete\ElementAutocomplete;
+use NightKit\NovaElements\Fields\ElementNumber\ElementNumber;
+use NightKit\NovaElements\Fields\ElementTimezoneAutocomplete\ElementTimezoneAutocomplete;
+use NightKit\NovaElements\Fields\ElementTimezoneSelect\ElementTimezoneSelect;
+```
 
 #### ElementInput
 
