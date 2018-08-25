@@ -1,6 +1,6 @@
 {
     "name": "nightkit/nova-element-ui",
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "Element UI components for Laravel Nova",
     "type": "library",
     "license": "MIT",
@@ -17,13 +17,6 @@
     "autoload": {
         "psr-4": {
             "NightKit\\NovaElements\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "NightKit\\NovaElements\\NovaElementsServiceProvider"
-            ]
         }
     }
     
