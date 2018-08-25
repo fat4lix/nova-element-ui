@@ -1,0 +1,19 @@
+{
+  "plugins": [
+      "transform-runtime",
+      "transform-object-rest-spread",
+      [
+          "component",
+          {
+              "libraryName": "element-ui",
+              "styleLibraryName": "theme-chalk"
+          }
+      ]
+  ],
+  "presets": [["env"]],
+  "env": {
+      "test": {
+          "presets": [["env", { "targets": { "node": "current" } }]]
+      }
+  }
+}
