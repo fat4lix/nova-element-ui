@@ -5,7 +5,7 @@ This is a set of component Element UI for Laravel Nova
 ## Installation
 
 1) ```composer require nightkit/nova-element-ui```
-2) Add NightKit\NovaElements\NovaElementsServiceProvider::class to your config/app.php in providers section
+2) Add ```NightKit\NovaElements\NovaElementsServiceProvider::class``` to your ```config/app.php``` in providers section
 3) ``` php artisan vendor:publish --provider="NightKit\NovaElements\NovaElementsServiceProvider" --tag="public" ```
 
 ### Components
