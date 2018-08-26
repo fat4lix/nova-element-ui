@@ -27,7 +27,7 @@ use NightKit\NovaElements\Fields\ElementTimezoneSelect\ElementTimezoneSelect;
 
 #### ElementInput
 
-ElementInput just simple unput element with couple of cool features
+ElementInput just simple input element with couple of cool features
 
 You can add it like that
 ```php
