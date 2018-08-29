@@ -111,7 +111,7 @@ Whether show suggestions when input focus (default true)
 Debounce delay when typing, in milliseconds (default 300)
 
 
-#### ELementSelect
+#### ElementSelect
 
 Just simple select field with more beautiful design
 
