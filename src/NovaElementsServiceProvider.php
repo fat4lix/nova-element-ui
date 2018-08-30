@@ -32,6 +32,7 @@ class NovaElementsServiceProvider extends ServiceProvider
         $this->app->register('NightKit\NovaElements\Fields\ElementNumber\FieldServiceProvider');
         $this->app->register('NightKit\NovaElements\Fields\ElementRadio\FieldServiceProvider');
         $this->app->register('NightKit\NovaElements\Fields\ElementSelect\FieldServiceProvider');
+        $this->app->register('NightKit\NovaElements\Fields\ElementTabs\FieldServiceProvider');
     }
 
 }

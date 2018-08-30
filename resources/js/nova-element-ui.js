@@ -61,7 +61,9 @@ import {
     CheckboxGroup,
     ColorPicker,
     Switch,
-    Tag
+    Tag,
+    Tabs,
+    TabPane
 } from 'element-ui';
 
 Nova.booting(function(Vue, router) {
@@ -80,4 +82,6 @@ Nova.booting(function(Vue, router) {
   Vue.use(ColorPicker);
   Vue.use(Tag);
   Vue.use(Switch);
+  Vue.use(TabPane);
+  Vue.use(Tabs);
 })
