@@ -23,7 +23,28 @@ use NightKit\NovaElements\Fields\ElementAutocomplete\ElementAutocomplete;
 use NightKit\NovaElements\Fields\ElementNumber\ElementNumber;
 use NightKit\NovaElements\Fields\ElementTimezoneAutocomplete\ElementTimezoneAutocomplete;
 use NightKit\NovaElements\Fields\ElementTimezoneSelect\ElementTimezoneSelect;
+use NightKit\NovaElements\Fields\ElementTabs\ElementTabsRelations;
+
 ```
+
+
+#### ElementTabsRelations
+
+ElementTabsRelations it's tabs component to split relation lists view between tabs
+Supported relation fields: HasMany, BelongsTany, OneToMany, MorphToMany
+
+```php
+  public function fields(Request $request)
+  {
+    ElementTabsRelations::make('Tabs')
+        ->addTab('Levels', HasMany::make('Level', 'levels'))
+        ->addTab('Setting', HasMany::make('Setting', 'settings'))
+        ->activeTab('levels')
+        ->borderCard() // border card style for tabs
+  }
+```
+![](https://monosnap.com/image/EgJu0FSuUETEru65djCH8cJrkGTZny.png)
+
 
 #### ElementInput
 
