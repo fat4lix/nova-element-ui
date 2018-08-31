@@ -10,7 +10,7 @@ This is a set of component Element UI for Laravel Nova
 
 ### Components
 
-This is awailable component for this time.
+This is available component for this time.
 
 ```php
 use NightKit\NovaElements\Fields\ElementInput\ElementInput;
@@ -48,7 +48,7 @@ Supported relation fields: HasMany, BelongsTany, OneToMany, MorphToMany
 
 #### ElementInput
 
-ElementInput just simple input element with couple of cool features
+ElementInput is just simple input element with couple of cool features
 
 You can add it like that
 ```php
@@ -109,7 +109,7 @@ Textarea accepts several parameters, number of rows and autosize
 
 #### ElementAutocomplete
 
-ElementAutocomplete looks like a input but is used  if you need autocomplete
+ElementAutocomplete looks like a input but is used if you need autocomplete
 
 ```php
     return [
@@ -134,7 +134,7 @@ Debounce delay when typing, in milliseconds (default 300)
 
 #### ElementSelect
 
-Just simple select field with more beautiful design
+It's just simple select field with more beautiful design
 
 ```php
 public function fields(Request $request)
@@ -151,7 +151,7 @@ public function fields(Request $request)
 
 #### ElementTimezoneSelect and ElementTimezoneAutocomplete
 
-This two fields depends on ElementSelect and ElementAutocompele to choice timezone more comfortable
+This two fields depend on ElementSelect and ElementAutocompele to coose timezones more simple
 
 ```php
 public function fields(Request $request)
