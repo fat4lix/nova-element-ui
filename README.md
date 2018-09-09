@@ -272,7 +272,7 @@ On detail page and index it's cool looks with el-tag element
 
 ![](https://monosnap.com/image/byme5QgvZ5nCAIqg6lsbbB1pbkXiTy.png)
 
-Of course you can change standart 'True' 'False' labels on what want to
+Of course you can change standard 'True' 'False' labels on what want to
 
 ```php
 public function fields(Request $request)
