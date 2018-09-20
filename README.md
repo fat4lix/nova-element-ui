@@ -48,9 +48,9 @@ Supported relation fields: HasMany, BelongsTany, OneToMany, MorphToMany
 
 #### ElementInput
 
-ElementInput is just simple input element with couple of cool features
+ElementInput is just a simple input element with couple of cool features
 
-You can add it like that
+You can add it like this
 ```php
   public function fields(Request $request)
   {
@@ -62,7 +62,7 @@ You can add it like that
 ```
 ![](https://monosnap.com/image/al5xWRSlA5c4SrMjwS86oFQhrWKr5x.png)
 
-To make this input with clear action just add ```clearable()```
+To make this input with the clear action just add ```clearable()```
 
 ```php
   public function fields(Request $request)
@@ -76,7 +76,7 @@ To make this input with clear action just add ```clearable()```
 ```
 ![](https://monosnap.com/image/MmzHgs3lz9BgAX36cH8a2blanheilv.png)
 
-You can also add prefix or suffix icon with ```prefixIcon()``` and```suffixIcon()```
+You can also add a prefix or suffix icon with ```prefixIcon()``` and```suffixIcon()```
 
 ```php
   public function fields(Request $request)
@@ -91,7 +91,7 @@ You can also add prefix or suffix icon with ```prefixIcon()``` and```suffixIcon(
 ```
 ![](https://monosnap.com/image/1nZ6gp80L3rbcRmLwBu8eRwPuvDWWa.png)
 
-If you need a textarea you can simple make it by ```textarea()```
+If you need a textarea you can simply make it by using ```textarea()```
 
 ```php
    public function fields(Request $request)
@@ -109,7 +109,7 @@ Textarea accepts several parameters, number of rows and autosize
 
 #### ElementAutocomplete
 
-ElementAutocomplete looks like a input but is used if you need autocomplete
+ElementAutocomplete looks like a input but is an autocomplete field
 
 ```php
     return [
@@ -120,7 +120,7 @@ ElementAutocomplete looks like a input but is used if you need autocomplete
 ```
 ![](https://monosnap.com/image/ome1YEsDkQCKoN28Jgd8ymavvccA2u.png)
 
-This field has a few method
+This field has a few methods
 
 ```placement() @string```
 Placement of the popup menu (top / top-start / top-end / bottom / bottom-start / bottom-end) default bottom-start
@@ -134,7 +134,7 @@ Debounce delay when typing, in milliseconds (default 300)
 
 #### ElementSelect
 
-It's just simple select field with more beautiful design
+It's just a simple select field with a more beautiful design
 
 ```php
 public function fields(Request $request)
@@ -151,7 +151,7 @@ public function fields(Request $request)
 
 #### ElementTimezoneSelect and ElementTimezoneAutocomplete
 
-This two fields depend on ElementSelect and ElementAutocompele to coose timezones more simple
+This two fields depend on ElementSelect and ElementAutocompele to pick timezones easily 
 
 ```php
 public function fields(Request $request)
@@ -167,9 +167,9 @@ public function fields(Request $request)
 
 #### ElementNumber
 
-The number input field on steroids:)
+The number input field on steroids :smile:
 
-It's depend on Nova native Number field and support all its functions
+It's depend on Nova native Number field and supports all its functions
 
 ```php
 public function fields(Request $request)
@@ -216,7 +216,7 @@ public function fields(Request $request)
 ```
 ![](https://monosnap.com/image/SHR9Ae2SXmXQ8fezBwhx7mw24m9kox.png)
 
-If you want button style radio just use ```buttons()``` method
+If you want to style the radio button just use ```buttons()``` method
 
 ```php
 public function fields(Request $request)
@@ -234,7 +234,7 @@ public function fields(Request $request)
   ```
 ![](https://monosnap.com/image/UXfvA05m2WxZa7bUvHnEivoRCWuuKq.png)
 
-Or bordered style with ```bordered()```
+Or a bordered style with ```bordered()```
 
 ```php
 public function fields(Request $request)
@@ -268,11 +268,11 @@ public function fields(Request $request)
 ```
 ![](https://monosnap.com/image/wixlJiNHNGLE3fnbp6pH7hvzQcOMb0.png)
 
-On detail page and index it's cool looks with el-tag element
+On the detail page and index it's cool looks with el-tag element
 
 ![](https://monosnap.com/image/byme5QgvZ5nCAIqg6lsbbB1pbkXiTy.png)
 
-Of course you can change standard 'True' 'False' labels on what want to
+Of course you can change standard 'True' 'False' labels with what you want
 
 ```php
 public function fields(Request $request)
@@ -287,7 +287,7 @@ public function fields(Request $request)
 ```
 ![](https://monosnap.com/image/MzKADrRMR4XBQ04mYBwJ275LOi02gG.png)
 
-If you d'not want to be displayed el-tag you can hide it with ```showTagOnIndex()``` ```showTagOnDetail()```
+If you don't want to be displayed el-tag you can hide it with ```showTagOnIndex()``` ```showTagOnDetail()```
 
 ```php
 public function fields(Request $request)
@@ -303,7 +303,7 @@ public function fields(Request $request)
   }
 ```
 
-When you just see only label
+When you just need to see only the label
 
 #### ElementSwitch
 
@@ -323,7 +323,7 @@ public function fields(Request $request)
 
 ![](https://monosnap.com/image/uc3G1XdWqV1Hr9GL2VYEwDnLWVHCJb.png)
 
-If you want to show your labels on switch use ```showLabels()``` method
+If you want to show your labels on the switch use ```showLabels()``` method
 
 ```php
 public function fields(Request $request)
@@ -339,7 +339,7 @@ public function fields(Request $request)
 ```
 ![](https://monosnap.com/image/6QqnKDRd2jEGjt2zVZmXDLqeDpiXJx.png)
 
-Also you can change active/inactive colors on switch
+Also you can change active/inactive colors on the switch
 
 ```php
 public function fields(Request $request)
