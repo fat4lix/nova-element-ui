@@ -1,6 +1,6 @@
 # Nova + Element UI
 
-This is a set of component Element UI for Laravel Nova
+This package provides a set of Element UI components for Laravel Nova
 
 ## Installation
 
@@ -10,7 +10,7 @@ This is a set of component Element UI for Laravel Nova
 
 ### Components
 
-This is available component for this time.
+These are the available components as of now.
 
 ```php
 use NightKit\NovaElements\Fields\ElementInput\ElementInput;
@@ -30,7 +30,8 @@ use NightKit\NovaElements\Fields\ElementTabs\ElementTabsRelations;
 
 #### ElementTabsRelations
 
-ElementTabsRelations it's tabs component to split relation lists view between tabs
+ElementTabsRelations is a tab component to split relation lists view between tabs.
+
 Supported relation fields: HasMany, BelongsTany, OneToMany, MorphToMany
 
 ```php
@@ -48,9 +49,9 @@ Supported relation fields: HasMany, BelongsTany, OneToMany, MorphToMany
 
 #### ElementInput
 
-ElementInput is just simple input element with couple of cool features
+ElementInput is a simple input element with couple of cool features
 
-You can add it like that
+You can add an ElementInput in the following manner
 ```php
   public function fields(Request $request)
   {
@@ -62,7 +63,7 @@ You can add it like that
 ```
 ![](https://monosnap.com/image/al5xWRSlA5c4SrMjwS86oFQhrWKr5x.png)
 
-To make this input with clear action just add ```clearable()```
+To make the input with clear action you can add ```clearable()```
 
 ```php
   public function fields(Request $request)
@@ -76,7 +77,7 @@ To make this input with clear action just add ```clearable()```
 ```
 ![](https://monosnap.com/image/MmzHgs3lz9BgAX36cH8a2blanheilv.png)
 
-You can also add prefix or suffix icon with ```prefixIcon()``` and```suffixIcon()```
+You can also add a prefix or suffix icon with ```prefixIcon()``` and```suffixIcon()```
 
 ```php
   public function fields(Request $request)
@@ -85,13 +86,13 @@ You can also add prefix or suffix icon with ```prefixIcon()``` and```suffixIcon(
           ID::make()->sortable(),
           ElementInput::make('String')
               ->clearable()
-              ->prefixIcon('el-icon-date') //icon css class 
+              ->prefixIcon('el-icon-date') //icon css class
       ];
   }
 ```
 ![](https://monosnap.com/image/1nZ6gp80L3rbcRmLwBu8eRwPuvDWWa.png)
 
-If you need a textarea you can simple make it by ```textarea()```
+If you need a textarea you can simply make it by ```textarea()```
 
 ```php
    public function fields(Request $request)
@@ -151,7 +152,7 @@ public function fields(Request $request)
 
 #### ElementTimezoneSelect and ElementTimezoneAutocomplete
 
-This two fields depend on ElementSelect and ElementAutocompele to coose timezones more simple
+These two fields depend on ElementSelect and ElementAutocompele to choose timezones in a simple way
 
 ```php
 public function fields(Request $request)
@@ -169,7 +170,7 @@ public function fields(Request $request)
 
 The number input field on steroids:)
 
-It's depend on Nova native Number field and support all its functions
+It depends on Nova native Number field and support all its functions
 
 ```php
 public function fields(Request $request)
@@ -188,17 +189,17 @@ public function fields(Request $request)
 Also this field provide several methods
 
 ```precision() @int```
-Precision of input value	
+Precision of input value
 
 ```showControls() @bool```
-whether to enable the control buttons	
+whether to enable the control buttons
 
 ```rightControls()```
 Move the control buttons to the right
 
 #### ElementRadio
 
-Radio element 
+Radio element
 
 ```php
 public function fields(Request $request)
@@ -216,7 +217,7 @@ public function fields(Request $request)
 ```
 ![](https://monosnap.com/image/SHR9Ae2SXmXQ8fezBwhx7mw24m9kox.png)
 
-If you want button style radio just use ```buttons()``` method
+If you want a button style radio just use ```buttons()``` method
 
 ```php
 public function fields(Request $request)
@@ -255,7 +256,7 @@ public function fields(Request $request)
 
 #### ElementCheckbox
 
-ElementCheckbox depends on native Nova Boolean field with couple cool features
+ElementCheckbox depends on native Nova Boolean field with couple of cool features
 
 ```php
 public function fields(Request $request)
@@ -268,7 +269,7 @@ public function fields(Request $request)
 ```
 ![](https://monosnap.com/image/wixlJiNHNGLE3fnbp6pH7hvzQcOMb0.png)
 
-On detail page and index it's cool looks with el-tag element
+On detail page and index it's looks cool with el-tag element
 
 ![](https://monosnap.com/image/byme5QgvZ5nCAIqg6lsbbB1pbkXiTy.png)
 
@@ -287,7 +288,7 @@ public function fields(Request $request)
 ```
 ![](https://monosnap.com/image/MzKADrRMR4XBQ04mYBwJ275LOi02gG.png)
 
-If you d'not want to be displayed el-tag you can hide it with ```showTagOnIndex()``` ```showTagOnDetail()```
+If you don't want to display el-tag you can hide it with ```showTagOnIndex()``` ```showTagOnDetail()```
 
 ```php
 public function fields(Request $request)
@@ -303,7 +304,7 @@ public function fields(Request $request)
   }
 ```
 
-When you just see only label
+When you want to just display the label
 
 #### ElementSwitch
 
